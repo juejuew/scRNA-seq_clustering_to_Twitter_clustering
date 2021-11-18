@@ -4,4 +4,11 @@ Traditional topic modeling schemes including Latent Dirichlet allocation (LDA) a
 
 ## Preprocessing 
 ##### In the folder `P1_preprocessing`
-The first step is to preprocess the tweets from four distinct users (`four_users.csv`) and the "jobs" tweets (`jobs_tweets_sampled_three_month.csv`). The code for preprocessing can be found in `preprocessing.ipynb`.
+* The first step is to preprocess the tweets from four distinct users (`four_users.csv`) and the "jobs" tweets (`jobs_tweets_sampled_three_month.csv`). The code for preprocessing can be found in `preprocessing.ipynb`. 
+
+* After preprocessing, you will obtain the term-document matrix and the document information data for the "four-user" tweets and "jobs" tweets respectively. They are the inputs for the other two parts. 
+
+* Specifically,
+  - **Term-document Matrix**: rows are terms, columns are tweets, and entries are corresponding word frequency
+  - **document information data**: a data frame where the rows are tweets and columns are tweets' features 
+
