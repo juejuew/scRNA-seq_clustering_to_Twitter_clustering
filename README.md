@@ -10,5 +10,13 @@ Traditional topic modeling schemes including Latent Dirichlet allocation (LDA) a
 
 * Specifically,
   - **Term-document Matrix**: rows are terms, columns are tweets, and entries are corresponding word frequency
-  - **document information data**: a data frame where the rows are tweets and columns are tweets' features 
+  - **document information data**: a data frame where the rows are tweets and columns are tweets' features
+
+## Prelimilary analysis on the four-user tweets
+##### In the folder `P2_scRNAseq_LDA_NMF`
+* In the second step, on the four-user tweets, we compare the performance of two scRNAseq clustering toolkits (Monocle3 and Seurat) with two traditional topic modeling methods (LDA and NMF). 
+
+* The implementation of LDA and NMF is in `LDA_NMF/LDA_and_NMF_evaluation_metrics.ipynb`. Then, you can calculate the summary tables by using `LDA_NMF/LDA_NMF_summary_table.ipynb`
+
+* To implement Monocle3 in this analysis, first run `M3_tfidf.ipynb` to scale the term-documanr matrix. Then, run `Monocle3.ipynb` to implement it and find topic clusters. Next, calculate the evaluation metrics using `M3_evaluation_metrics.ipynb`
 
