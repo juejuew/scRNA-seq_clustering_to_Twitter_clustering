@@ -20,3 +20,11 @@ Traditional topic modeling schemes including Latent Dirichlet allocation (LDA) a
 
 * To implement Monocle3/Seurat in this analysis, first run `M3_tfidf.ipynb`/`S_tfidf.ipynb` to scale the term-documanr matrix. Then, run `Monocle3.ipynb`/`Seurat.ipynb` to implement it and find topic clusters. Next, calculate the evaluation metrics using `M3_evaluation_metrics.ipynb`/`S_evaluation_metrics.ipynb`
 
+* Finally, use `four_Evaluation_visualization.ipynb` and `jobs_Evaluation_visualization.ipynb` to visualize the evaluation results. 
+
+## Implement and evaluate the proposed workflow
+##### In the folder `P3_Proposed_workflow`
+* In the third step, we implement the proposed workflow that is based on Monocle3. Before the implementation and the evaluation, use `HCCA_jobs.ipynb` to obtain the labels from the hand-created classification algorithm. We use these labels as the ground truth for the topic of "jobs" tweets. Moreover, use `HCCA_validation_jobs.ipynb` -> `validation_of_HCCA.ipynb` to validate the hand-created classification algorithm. 
+
+
+
