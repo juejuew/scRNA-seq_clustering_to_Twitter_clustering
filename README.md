@@ -26,5 +26,8 @@ Traditional topic modeling schemes including Latent Dirichlet allocation (LDA) a
 ##### In the folder `P3_Proposed_workflow`
 * In the third step, we implement the proposed workflow that is based on Monocle3. Before the implementation and the evaluation, use `HCCA_jobs.ipynb` to obtain the labels from the hand-created classification algorithm. We use these labels as the ground truth for the topics of "jobs" tweets. Moreover, you can use `HCCA_validation_jobs.ipynb` -> `validation_of_HCCA.ipynb` to validate the hand-created classification algorithm. 
 
+* Next, implement the proposed workflow on the four-user tweets and "jobs" tweets using `four_proposed_Workflow.ipynb` and `jobs_proposed_Workflow.ipynb` respectively. During the implementation, use `HDBSCAN_or_DBSCAN.ipynb` to separate tiny clusters with main clusters; use `PW_tfidf.ipynb` to scale the term-document matrix. 
+
+* Finally, use `PW_evaluation_metrics.ipynb` to calculate the evaluation metrics. Visualization of the evaluation can be found in `P2_scRNAseq_LDA_NMF/four_Evaluation_visualization.ipynb` and `P2_scRNAseq_LDA_NMF/jobs_Evaluation_visualization.ipynb`
 
 
