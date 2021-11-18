@@ -18,5 +18,5 @@ Traditional topic modeling schemes including Latent Dirichlet allocation (LDA) a
 
 * The implementation of LDA and NMF is in `LDA_NMF/LDA_and_NMF_evaluation_metrics.ipynb`. Then, you can calculate the summary tables by using `LDA_NMF/LDA_NMF_summary_table.ipynb`
 
-* To implement Monocle3 in this analysis, first run `M3_tfidf.ipynb` to scale the term-documanr matrix. Then, run `Monocle3.ipynb` to implement it and find topic clusters. Next, calculate the evaluation metrics using `M3_evaluation_metrics.ipynb`
+* To implement Monocle3/Seurat in this analysis, first run `M3_tfidf.ipynb`/`S_tfidf.ipynb` to scale the term-documanr matrix. Then, run `Monocle3.ipynb`/`Seurat.ipynb` to implement it and find topic clusters. Next, calculate the evaluation metrics using `M3_evaluation_metrics.ipynb`/`S_evaluation_metrics.ipynb`
 
