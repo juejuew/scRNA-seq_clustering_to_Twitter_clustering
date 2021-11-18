@@ -33,6 +33,7 @@ Traditional topic modeling schemes including Latent Dirichlet allocation (LDA) a
 ## Related links
 
 Monocle3: https://cole-trapnell-lab.github.io/monocle3/docs/clustering/
+
 Seurat: https://satijalab.org/seurat/v3.1/pbmc3k_tutorial.html
 
 ## Reference 
