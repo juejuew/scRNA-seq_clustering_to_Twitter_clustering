@@ -30,4 +30,22 @@ Traditional topic modeling schemes including Latent Dirichlet allocation (LDA) a
 
 * Finally, use `PW_evaluation_metrics.ipynb` to calculate the evaluation metrics. Visualization of the evaluation can be found in `P2_scRNAseq_LDA_NMF/four_Evaluation_visualization.ipynb` and `P2_scRNAseq_LDA_NMF/jobs_Evaluation_visualization.ipynb`
 
+## Related links
+
+Monocle3: https://cole-trapnell-lab.github.io/monocle3/docs/clustering/
+Seurat: https://satijalab.org/seurat/v3.1/pbmc3k_tutorial.html
+
+## Reference 
+Ferg, Robyn. Modern Survey Estimation with Social Media and Auxiliary Data. Diss. 2020.
+
+Conrad, Frederick G., et al. "Social media as an alternative to surveys of opinions about the economy." Social Science Computer Review 39.4 (2021): 489-508.
+
+Levine, Jacob H., et al. "Data-driven phenotypic dissection of AML reveals progenitor-like cells that correlate with prognosis." Cell 162.1 (2015): 184-197.
+
+Blei, David M., Andrew Y. Ng, and Michael I. Jordan. "Latent dirichlet allocation." Journal of machine Learning research 3.Jan (2003): 993-1022.
+
+Lee, Daniel D., and H. Sebastian Seung. "Learning the parts of objects by non-negative matrix factorization." Nature 401.6755 (1999): 788-791.
+
+
+
 
